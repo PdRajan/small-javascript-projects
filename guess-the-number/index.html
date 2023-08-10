@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        *{
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        .wrapper{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: lightseagreen;
+        }
+        .mainHeading{
+            font-size: 70px;
+            padding: 0;
+            margin: 0;
+            font-weight: 600;
+        }
+
+        .head2{
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 30px;
+        }
+
+        .guessField{
+            border: 2px solid black;
+            width: 300px;
+            height: 30px;
+            border-radius: 3px;
+            font-weight: 400;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #submit{
+            border: 2px solid black;
+            background-color: white;
+            border-radius: 10px;
+            width: 130px;
+            font-weight: bold;
+            color: black;
+            padding: 5px;
+        }
+
+        .resultParas{
+            font-size: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1 class="mainHeading">Guess the Number</h1>
+        <p class="head2">Between 1 & 100</p>
+
+
+        <form class="form">
+            <div><input type="text" id="guessField" class="guessField"></div>
+            <div><input type="submit" id="submit" value="Submit Guesss" class="guessSubmit"></div>
+        </form>
+
+        <div class="resultParas">
+            <p>Previous Guesses : <span class="guesses"></span></p>
+            <p>Remaining Guess : <span class="lastResult">10</span></p>
+            <p class="lowOrHigh"></p>
+        </div>
+    </div>
+
+
+    <script src="script.js" />
+
+</body>
+
+</html>

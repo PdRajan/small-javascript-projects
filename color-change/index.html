@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        #container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            gap: 40px;
+        }
+        .btn{
+            padding: 20px 40px;
+            background-color: white;
+            color: black;
+            font-weight: 700;
+            font-size: 30px;
+            border: 5px solid black;
+            border-radius: 10px;
+        }
+        .btn:active{
+            background-color: lightgray;
+            border: 7px solid black;
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <button class="btn" id="start">Start</button>
+        <button class="btn" id="stop">Stop</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
