@@ -1,10 +1,10 @@
-#color-change
+# color-change
 ![](/preview/color-change.mp4)
-#color-change-start-stop
+# color-change-start-stop
 ![](/preview/color-change-start-stop.mp4)
-#digitalClock
+# digitalClock
 ![](/preview/digitalClock.mp4)
-#guess-the-number
+# guess-the-number
 ![](/preview/guess-the-number.mp4)
-#keyPressed
+# keyPressed
 ![](/preview/keyPressed.mp4)
