@@ -1,5 +1,5 @@
 # color-change
-![preview](/preview/color-change.mp4)
+![preview](preview/color-change.mp4)
 # color-change-start-stop
 ![preview](/preview/color-change-start-stop.mp4)
 # digitalClock
