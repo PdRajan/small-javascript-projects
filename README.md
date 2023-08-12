@@ -1,5 +1,11 @@
 # color-change
-![preview](/preview/color-change.mp4)
+
+
+<video controls>
+  <source src="/preview/color-change-start-stop.mp4" type="video/mp4"
+
+</video>
+
 # color-change-start-stop
 <img width="6000x" src="/preview/color-change-start-stop.gif">
 
